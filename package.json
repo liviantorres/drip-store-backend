@@ -1,0 +1,36 @@
+{
+  "name": "drip-store-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liviantorres/drip-store-backend.git"
+  },
+  "author": "Livian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liviantorres/drip-store-backend/issues"
+  },
+  "homepage": "https://github.com/liviantorres/drip-store-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "drip-store-backend": "file:",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "sequelize-cli": "^6.6.2"
+  }
+}
